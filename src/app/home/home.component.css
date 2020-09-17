@@ -1,20 +1,294 @@
-.navbar-nav li:hover .dropdown-menu {
-    display: block;
-  }
-  
-  .dropdown>.dropdown-toggle:active {
-    /*Without this, clicking will make it sticky*/
-    pointer-events: none;
-  }
-  
-  
-  /* Make the image fully responsive */
-  .carousel-inner img {
-    width: 100%;
-    height: 100%;
-  }
+/*===== Header top =====*/
 
-  .fakeimg {
-    height: 160px;
-    background: #aaa;
+.header-top {
+  background-color: #07294d;
+  padding-top: 10px;
+}
+.header-contact ul li {
+  display: inline-block;
+  margin-right: 45px;
+}
+.header-contact ul li:last-child {
+  margin-right: 0;
+}
+.header-contact ul li span {
+  color: #dee2e6;
+  font-size: 15px;
+  font-weight: 400;
+  margin-left: 10px;
+}
+
+.header-opening-time p {
+  color: #dee2e6;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+/*===== Header Logo support =====*/
+
+.header-logo-support {
+  border-bottom: 1px solid #cecece;
+}
+
+.support-button .support {
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+.support-button .support .cont {
+  margin-left: 15px;
+  margin-top: -2px;
+}
+.support-button .support .cont p {
+  font-size: 13px;
+  color: #8a8a8a;
+  line-height: 18px;
+}
+.support-button .support .cont span {
+  font-size: 18px;
+  color: #07294d;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.support-button .button {
+  margin-left: 60px;
+}
+
+.main-btn {
+  display: inline-block;
+  font-weight: 500;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid #ffc600;
+  padding: 0 35px;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  line-height: 50px;
+  border-radius: 5px;
+  color: #07294d;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  z-index: 5;
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+  background-color: #ffc600;
+}
+.main-btn:hover {
+  color: #ffc600;
+  border-color: #07294d;
+  background-color: #07294d;
+}
+
+/* nav */
+
+.collapse ul li {
+  margin-right: 17px;
+  padding: 22px 0;
+}
+.collapse ul li:last-child {
+  margin-right: 0;
+}
+.navbar .navbar-nav li a {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+  color: #07294d;
+}
+.navbar .navbar-nav > li > a.active,
+.navbar .navbar-nav > li > a:hover {
+  color: #ffc600;
+}
+
+.affix {
+  top: 0;
+  width: 100%;
+  z-index: 9999 !important;
+}
+
+.affix + .container-fluid {
+  padding-top: 70px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  z-index: 999;
+  border-bottom: 1px solid #cecece;
+  -webkit-box-shadow: 0 0 191px 0 rgba(0, 0, 0, 0.06);
+  box-shadow: 0 0 191px 0 rgba(0, 0, 0, 0.06);
+  -webkit-animation: sticky 1s;
+  animation: sticky 1s;
+}
+@-webkit-keyframes sticky {
+  0% {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
   }
+  100% {
+    -webkit-transform: translateY(0%);
+    transform: translateY(0%);
+  }
+}
+
+@keyframes sticky {
+  0% {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+  100% {
+    -webkit-transform: translateY(0%);
+    transform: translateY(0%);
+  }
+}
+
+/* ______________________ About ___________________________ */
+.section-title h5 {
+  color: #07294d;
+  position: relative;
+  padding-bottom: 12px;
+}
+.section-title h5::before {
+  content: "";
+  position: absolute;
+  width: 35px;
+  height: 2px;
+  background-color: #ffc600;
+  bottom: 0;
+  left: 0;
+}
+
+#about-part {
+  position: relative;
+  padding-bottom: 70px;
+}
+/* .about-bg{
+  width: 52%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -2;
+}
+.about-bg::before{
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  background: rgb(255,255,255);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(60%, rgba(255,255,255,0)), to(rgba(255,255,255,1)));
+  background: linear-gradient(180deg, rgba(255,255,255,0) 60%, rgba(255,255,255,1) 100%);
+}
+
+.about-bg img{
+  width: 100%;
+} */
+
+.about-cont p {
+  padding-top: 30px;
+}
+
+.about-event {
+  -webkit-box-shadow: 0px 0px 191px 0px rgba(0, 0, 0, 0.06);
+  box-shadow: 0px 0px 191px 0px rgba(0, 0, 0, 0.06);
+  padding: 40px 70px 37px;
+  background-color: rgba(255, 255, 255, 0.95);
+}
+.about-event .event-title h2 {
+  padding-bottom: 20px;
+}
+.about-event ul li .singel-event {
+  padding: 10px 0;
+  border-bottom: 1px solid #cecece;
+}
+.about-event ul li:last-child .singel-event {
+  border-bottom: 0;
+}
+
+.about-event ul li .singel-event span {
+  font-size: 14px;
+  color: #8a8a8a;
+  margin-right: 20px;
+}
+.about-event ul li .singel-event span i {
+  color: #ffc600;
+  margin-right: 3px;
+}
+.about-event ul li .singel-event a {
+  display: block;
+}
+.about-event ul li .singel-event a h4 {
+  padding-top: 5px;
+  padding-bottom: 10px;
+  color: #000;
+  font-size: 24px;
+  /* -webkit-transition: all 0.4s linear;
+  transition: all 0.4s linear; */
+}
+.about-event ul li .singel-event a:hover h4 {
+  color: #ffc600;
+}
+
+/* testimonial */
+.bg_cover {
+  background-image: url("https://previews.123rf.com/images/kurhan/kurhan1004/kurhan100400545/6849549-large-group-of-smiling-students-isolated-over-white-background.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.bg_cover::before {
+  background: #07294d none repeat scroll 0 0;
+	content: "";
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+  width: 100%;
+  opacity: 0.8;
+}
+
+.testimonial-thum img {
+  border-radius: 5px;
+}
+.testimonial-thum .quote {
+  position: absolute;
+  right: 22px;
+  top: -22px;
+}
+.testimonial-thum .quote i {
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: #ffc600;
+  border-radius: 50%;
+  color: #07294d;
+  font-size: 18px;
+}
+
+#testimonial .carousel-indicators {
+  bottom: -40px;
+}
+#testimonial .carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
