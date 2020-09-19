@@ -1,5 +1,6 @@
+<!-- Header -->
 <header id="header-part">
-  <div class="header-top d-none d-lg-block">
+  <!-- <div class="header-top d-none d-lg-block">
     <div class="container-fluid">
       <div class="row">
         <div class="col-lg-6">
@@ -15,11 +16,11 @@
             <p>Opening Hours : Monday to Saturay - 10 AM to 5 PM</p>
           </div>
         </div>
-      </div> <!-- row -->
-    </div> <!-- container -->
-  </div> <!-- header top -->
+      </div>
+    </div>
+  </div> -->
 
-  <div class="header-logo-support pt-3 pb-3">
+  <div class="header-logo-support pt-1 pb-1">
     <div class="container">
       <div class="row">
         <div class="col-lg-4 col-md-4 col-sm-4">
@@ -30,25 +31,29 @@
           </div>
         </div>
         <div class="col-lg-8 col-md-8 col-sm-8">
-          <div class="support-button float-right d-none d-sm-block pt-5">
-            <div class="support float-left">
-              <div class="icon">
-                <img src="https://www.templateshub.net/demo/edubin-education-html-template/images/all-icon/support.png"
-                  alt="icon">
+          <div class="support-button float-right d-none d-sm-block">
+            <p class="text-center">Opening Hours : Monday to Saturay - 10 AM to 5 PM</p>
+            <div class="pt-3">
+              <div class="support float-left">
+                <div class="icon">
+                  <img
+                    src="https://www.templateshub.net/demo/edubin-education-html-template/images/all-icon/support.png"
+                    alt="icon">
+                </div>
+                <div class="cont">
+                  <p>Need Help? call us free</p>
+                  <span>03484-279076 (Office)</span>
+                </div>
               </div>
-              <div class="cont">
-                <p>Need Help? call us free</p>
-                <span>03484-279076 (Office)</span>
+              <div class="button float-left">
+                <a href="#" class="main-btn">Apply Now</a>
               </div>
-            </div>
-            <div class="button float-left">
-              <a href="#" class="main-btn">Apply Now</a>
             </div>
           </div>
         </div>
-      </div> <!-- row -->
-    </div> <!-- container -->
-  </div> <!-- header logo support -->
+      </div>
+    </div>
+  </div>
 
   <nav class="navbar navbar-expand-lg navbar-light" id="myHeader">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -168,44 +173,96 @@
 
 
 <!-- Crousel  -->
-<div id="demo" class="carousel slide" data-ride="carousel">
-  <ul class="carousel-indicators">
-    <li data-target="#demo" data-slide-to="0" class="active"></li>
-    <li data-target="#demo" data-slide-to="1"></li>
-    <li data-target="#demo" data-slide-to="2"></li>
-  </ul>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="https://www.w3schools.com/bootstrap4/la.jpg" alt="Los Angeles" class="d-block w-100">
-      <div class="carousel-caption">
-        <h3>Los Angeles</h3>
-        <p>We had such a great time in LA!</p>
+
+<div class="container-fluid news_bg">
+  <div class="row">
+    <div class="col-lg-9 p-0">
+      <div id="demo" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://www.w3schools.com/bootstrap4/la.jpg" alt="Los Angeles" class="d-block w-100">
+            <div class="carousel-caption">
+              <h3>Los Angeles</h3>
+              <p>We had such a great time in LA!</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.w3schools.com/bootstrap4/chicago.jpg" alt="Chicago" class="d-block w-100">
+            <div class="carousel-caption">
+              <h3>Chicago</h3>
+              <p>Thank you, Chicago!</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.w3schools.com/bootstrap4/ny.jpg" alt="New York" class="d-block w-100">
+            <div class="carousel-caption">
+              <h3>New York</h3>
+              <p>We love the Big Apple!</p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
       </div>
     </div>
-    <div class="carousel-item">
-      <img src="https://www.w3schools.com/bootstrap4/chicago.jpg" alt="Chicago" class="d-block w-100">
-      <div class="carousel-caption">
-        <h3>Chicago</h3>
-        <p>Thank you, Chicago!</p>
+    <div class="col-lg-3">
+      <div class="news_title">
+          <h4 class="text-center pt-3 pb-2">News & Announcements</h4>
       </div>
-    </div>
-    <div class="carousel-item">
-      <img src="https://www.w3schools.com/bootstrap4/ny.jpg" alt="New York" class="d-block w-100">
-      <div class="carousel-caption">
-        <h3>New York</h3>
-        <p>We love the Big Apple!</p>
+      <div class="news_section">
+
+        <div class="singel-news news-list shadow p-3 bg-light">
+          <div class="news-cont">
+            <ul>
+              <li><a href="#"><i class="fa fa-calendar"></i>2 December 2018 </a></li>
+              <li><a href="#"> <span>By</span> Adam linn</a></li>
+            </ul>
+            <a href="blog-singel.html">
+              <h3>Study makes you perfect</h3>
+            </a>
+            <p>Gravida nibh vel velit auctor aliquetn sollicitudirem quibibendum auci elit cons vel.</p>
+          </div>
+        </div>
+
+        <div class="singel-news news-list shadow p-3 bg-light">
+          <div class="news-cont">
+            <ul>
+              <li><a href="#"><i class="fa fa-calendar"></i>2 December 2018 </a></li>
+              <li><a href="#"> <span>By</span> Adam linn</a></li>
+            </ul>
+            <a href="blog-singel.html">
+              <h3>Study makes you perfect</h3>
+            </a>
+            <p>Gravida nibh vel velit auctor aliquetn sollicitudirem quibibendum auci elit cons vel.</p>
+          </div>
+        </div>
+
+        <div class="singel-news news-list shadow p-3 bg-light">
+          <div class="news-cont">
+            <ul>
+              <li><a href="#"><i class="fa fa-calendar"></i>2 December 2018 </a></li>
+              <li><a href="#"> <span>By</span> Adam linn</a></li>
+            </ul>
+            <a href="blog-singel.html">
+              <h3>Study makes you perfect</h3>
+            </a>
+            <p>Gravida nibh vel velit auctor aliquetn sollicitudirem quibibendum auci elit cons vel.</p>
+          </div>
+        </div>
+
       </div>
     </div>
   </div>
-  <a class="carousel-control-prev" href="#demo" data-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </a>
-  <a class="carousel-control-next" href="#demo" data-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </a>
 </div>
-
-
 <!--====== ABOUT PART START ======-->
 
 <section id="about-part" class="pt-5">
@@ -215,14 +272,17 @@
         <div class="section-title mt-4">
           <h5>About us</h5>
           <h2>Welcome to Our College </h2>
-        </div> <!-- section title -->
+        </div>
         <div class="about-cont">
           <p class="text-justify">Then all the sorrows that lay heavily on us, the repeated failures, the botched
             trepidations will pass like the lights on bridges at village corners where shadows crouch under pierced
-            constellations… (Derek Walcott, Tiepolo’s Hound) Fifty kilometers away from Berhampore, the village of Nagar
+            constellations… (Derek Walcott, Tiepolo’s Hound) Fifty kilometers away from Berhampore, the village of
+            Nagar
             has a remarkably enriched cultural legacy evident in the relics of ancient structures and an annual winter
-            carnival inaugurated in the memory of saint Shah Chand Fakir. Far from the din and bustle of the city, Nagar
-            College campus offers lush green meadows, a wide variety of trees like deodar, shishu, neem, shimul, sirish
+            carnival inaugurated in the memory of saint Shah Chand Fakir. Far from the din and bustle of the city,
+            Nagar
+            College campus offers lush green meadows, a wide variety of trees like deodar, shishu, neem, shimul,
+            sirish
             and chhatim, a delicately handled garden with flowers, palm trees and foliages, squirrels and butterflies
             moving around the perfectly trimmed hedges and the glistening surface of an aquatic body mirroring a still
             sky. The institution which was established in 1998 and got the required UGC affiliation in 2008 -</p>
@@ -275,16 +335,16 @@
   </div> -->
 </section>
 
-<!--====== ABOUT PART ENDS ======-->
+<!--====== Testimonial ======-->
 
 <section id="testimonial" class="p-5 bg_cover">
   <div class="container">
     <div class="row">
       <div class="col-lg-5">
-        <div class="mt-4 mb-4">
-          <h5 class="text-light">Testimonial</h5>
-          <h2 class="text-light">From Principal's Desk</h2>
-        </div> <!-- section title -->
+        <div class="section-title mt-4 mb-4">
+          <h5>Testimonial</h5>
+          <h2>From Principal's Desk</h2>
+        </div>
       </div>
     </div>
     <div id="carouselExampleCaptions" class="carousel slide pt-4" data-ride="carousel">
@@ -307,10 +367,13 @@
               <div class="text-center">
                 <p class="text-light mb-4">The word ‘education’ is multidimensional. It has a wide range of meaning.
                   This is Swami Vivekananda’s
-                  oft quoted and widely acclaimed definition: ‘Education is the manifestation of the perfection already
-                  in man.’ Indian scriptures say “Sa Vidyaya Ya Vimuktaye.” Education is what liberates. Liberates from
+                  oft quoted and widely acclaimed definition: ‘Education is the manifestation of the perfection
+                  already
+                  in man.’ Indian scriptures say “Sa Vidyaya Ya Vimuktaye.” Education is what liberates. Liberates
+                  from
                   what ? From ignorance, poverty, ill health, superstition, mean-mindedness, all kinds of bigotry and
-                  the evils which frustrate the progress of human civilization and stand in the way of making this world
+                  the evils which frustrate the progress of human civilization and stand in the way of making this
+                  world
                   a beautiful place to live in. Education is one of the basic needs of human existence. According to
                   Aristotle, it is better to remain unfed than untaught. In his opinion, potential.But the present is
                   not so rosy. </p>
@@ -334,7 +397,8 @@
               <div class="text-center">
                 <p class="text-light mb-4">This is to inform you all about the sad demise of Md. Moffijuddin Mondal,
                   Government nominee. Nagar College expresses deep and heartfelt condolences to the sorrowing family.
-                  May the Lord Almighty take the departed Soul to his Heavenly Abode and give the entire family strength
+                  May the Lord Almighty take the departed Soul to his Heavenly Abode and give the entire family
+                  strength
                   and courage to bear this irreparable loss. </p>
                 <h5 class="text-light">Md. Moffijuddin Mondal</h5>
                 <h6 class="text-light mb-4">Bsc, Engineering</h6>

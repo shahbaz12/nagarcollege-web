@@ -51,7 +51,7 @@
   line-height: 18px;
 }
 .support-button .support .cont span {
-  font-size: 18px;
+  font-size: 15px;
   color: #07294d;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
@@ -61,43 +61,12 @@
   margin-left: 60px;
 }
 
-.main-btn {
-  display: inline-block;
-  font-weight: 500;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: middle;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  border: 1px solid #ffc600;
-  padding: 0 35px;
-  font-size: 16px;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  line-height: 50px;
-  border-radius: 5px;
-  color: #07294d;
-  cursor: pointer;
-  position: relative;
-  overflow: hidden;
-  z-index: 5;
-  -webkit-transition: 0.4s ease-in-out;
-  transition: 0.4s ease-in-out;
-  background-color: #ffc600;
-}
-.main-btn:hover {
-  color: #ffc600;
-  border-color: #07294d;
-  background-color: #07294d;
-}
 
 /* nav */
 
 .collapse ul li {
-  margin-right: 17px;
-  padding: 22px 0;
+  margin-right: 15px;
+  /* padding: 22px 0; */
 }
 .collapse ul li:last-child {
   margin-right: 0;
@@ -112,17 +81,9 @@
 .navbar .navbar-nav > li > a:hover {
   color: #ffc600;
 }
-
-.affix {
-  top: 0;
-  width: 100%;
-  z-index: 9999 !important;
+.navbar {
+  border-bottom: 1px solid #cecece;
 }
-
-.affix + .container-fluid {
-  padding-top: 70px;
-}
-
 .sticky {
   position: fixed;
   top: 0;
@@ -158,22 +119,82 @@
   }
 }
 
-/* ______________________ About ___________________________ */
-.section-title h5 {
-  color: #07294d;
-  position: relative;
-  padding-bottom: 12px;
+/* ______________________________ News & Announcements _____________________ */
+.news_bg {
+  /* background-image: url("https://previews.123rf.com/images/kurhan/kurhan1004/kurhan100400545/6849549-large-group-of-smiling-students-isolated-over-white-background.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  position: relative; */
+  background-color: #98989830;
 }
-.section-title h5::before {
+/* .news_bg::before {
+  background: #07294d none repeat scroll 0 0;
   content: "";
-  position: absolute;
-  width: 35px;
-  height: 2px;
-  background-color: #ffc600;
-  bottom: 0;
+  height: 100%;
   left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  opacity: 0.8;
+} */
+
+.news_section {
+  height: 380px;
+  overflow:auto;
+  padding: 10px;
+}
+.news_section::-webkit-scrollbar {
+  display: none;
 }
 
+.singel-news .news-cont ul li{
+  display: inline-block;
+  margin-right: 25px;
+}
+.singel-news .news-cont ul li:last-child{
+  margin-right: 0;
+}
+
+.singel-news .news-cont ul li a{
+  color: #8a8a8a;
+  font-size: 15px;
+}
+.singel-news .news-cont ul li a i{
+  color: #ffc600;
+  margin-right: 8px;
+}
+.singel-news .news-cont ul li a span{
+  color: #07294d;
+}
+.singel-news .news-cont a{
+  display: block;
+}
+.singel-news .news-cont a h3{
+  /* font-size: 24px; */
+  padding-bottom: 5px;
+  /* padding-top: 10px; */
+  -webkit-transition: all 0.4s linear;
+  transition: all 0.4s linear;
+}
+.singel-news .news-cont a:hover h3{
+  color: #ffc600;
+}
+.news-list {
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.news-list .news-cont h3{
+  font-size: 20px;
+}
+
+.news-list .news-cont ul li a{
+  font-size: 14px;
+}
+
+/* ______________________ About ___________________________ */
 #about-part {
   position: relative;
   padding-bottom: 70px;
@@ -256,11 +277,11 @@
 }
 .bg_cover::before {
   background: #07294d none repeat scroll 0 0;
-	content: "";
-	height: 100%;
-	left: 0;
-	position: absolute;
-	top: 0;
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
   width: 100%;
   opacity: 0.8;
 }
@@ -291,4 +312,12 @@
   width: 10px;
   height: 10px;
   border-radius: 50%;
+  background-color: #ffc600;
+}
+#testimonial .section-title h5,
+#testimonial .section-title h2 {
+  color: #ffffff;
+}
+#testimonial .section-title h5::before {
+  background-color: #ffffff;
 }
