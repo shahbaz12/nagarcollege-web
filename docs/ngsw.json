@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1624906671824,
+  "timestamp": 1624907026487,
   "index": "https://shahbaz12.github.io/nagarcollege-web/index.html",
   "assetGroups": [
     {
@@ -61,7 +61,7 @@
     "https://shahbaz12.github.io/nagarcollege-web/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "https://shahbaz12.github.io/nagarcollege-web/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
     "https://shahbaz12.github.io/nagarcollege-web/firebase-messaging-sw.js": "4194bf1ac5e18189f71271733229613034b20f9b",
-    "https://shahbaz12.github.io/nagarcollege-web/index.html": "b600f0d52f56a3060f1a022ee29e25118fd721f1",
+    "https://shahbaz12.github.io/nagarcollege-web/index.html": "87eaea86ed4225f5e098b04bdf72d4e753d1342f",
     "https://shahbaz12.github.io/nagarcollege-web/main-es2015.bfd139bc3f50d23e4067.js": "dcb07fa24e62ee660997f622958837328d40ae9c",
     "https://shahbaz12.github.io/nagarcollege-web/main-es5.bfd139bc3f50d23e4067.js": "8dcbf5ca0abc1c1ec6872f26f100d2d364463575",
     "https://shahbaz12.github.io/nagarcollege-web/manifest.webmanifest": "ade9b1b89b39e35ff86d88e3d5a36bdcbf90c364",
